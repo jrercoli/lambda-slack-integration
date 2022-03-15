@@ -23,6 +23,7 @@ Send a message through lambda to Slack when a new image is added into a s3 bucke
   6) In the lambda create a new trigger from that S3, ObjectCreated event
  
  *Run the process*:
+ 
   Go to the S3 bucket and add a new image. 
   That action fires a trigger in the lambda function, to create the message and send that to the Slack channel.
   
